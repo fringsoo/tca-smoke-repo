@@ -1,0 +1,12 @@
+claim_id: agent-a1-greeting-a1
+project_id: fringsoo/tca-smoke-repo
+author: agent-a1
+base_commit: 8ff5b5bd0d5bc41452a4d5e66d8ff422db2b662f
+work_branch: feature/agent-a1/agent-a1-greeting-a1
+goal: 将 greeting(name) 的返回文案改为 Hello from A1, {name}! 并同步更新测试
+planned_paths:
+  - src/tca_smoke/greeting.py
+  - tests/test_greeting.py
+excluded_paths: []
+dependencies: []
+version: 1
