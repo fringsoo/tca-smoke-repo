@@ -1,0 +1,6 @@
+version: 1
+project_id: fringsoo/tca-smoke-repo
+
+mcp:
+  url: https://tca-two-lyart.vercel.app/mcp
+  token_env: TCA_API_TOKEN
